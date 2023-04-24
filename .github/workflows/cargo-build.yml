@@ -22,15 +22,6 @@ jobs:
         include:
           - os: ubuntu-latest
             file-name: qpm-rust
-            prefix: linux
-
-          - os: macOS-latest
-            file-name: qpm-rust
-            prefix: macos
-
-          - os: windows-latest
-            file-name: qpm-rust.exe
-            prefix: windows
 
     steps:
       - uses: actions/checkout@v2
